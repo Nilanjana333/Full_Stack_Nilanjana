@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0%;
+}
+    
+header{
+    background-color: rgba(10, 166, 213, 0.93);
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display:flex;
+    margin: 0;
+    padding:0;
+    
+}
+
+nav ul li{
+    margin: 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 16px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 30px; 
+}
+
+.magic-box{
+    height: 200px;
+    width: 200px;
+    border: 3px solid seagreen;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.magic-box h3{
+    color: rgb(0, 204, 255);
+    margin-top: 30%;
+    transition:0.3s;
+}
+
+.magic-box p{
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.magic-box:hover div{
+    opacity: 0;
+}
+
+.magic-box:nth-child(1):hover {
+    background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGdyNnhhczE4NmthNnE2d3dxaW9qaDVwNjR5NW90Z2Z6cm9nYXV1ayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gLp6lD7DNVvGQaY6fi/giphy.webp') center/cover no-repeat;
+}
+
+.magic-box:nth-child(2):hover {
+    background: url('https://i.pinimg.com/originals/c0/7f/97/c07f97f3234f1820d0388f1a62377a9a.gif') center/cover no-repeat;
+}
+
+.magic-box:nth-child(3):hover {
+    background: url('https://i.redd.it/ktp42l0w9lad1.gif') center/cover no-repeat;
+}
+
+.magic-box:hover {
+    transform: scale(1.2);
+}
+
+.magic-box:active{
+    height:250px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+footer{
+    background-color: rgba(10, 166, 213, 0.93);
+    color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}

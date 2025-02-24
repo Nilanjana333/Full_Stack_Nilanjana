@@ -1,0 +1,85 @@
+body{
+    align-items: center;
+}
+header{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+header img{
+    height: 90px;
+}
+header nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#A{
+    display: flex;
+    gap: 15px;
+    height: 80px;
+}
+#download{
+   border: none;
+   background-color: white;
+   color: darkblue;
+   font-weight: bolder;
+}
+#sign-in{
+    background-color: darkblue;
+    font-weight: bolder;
+    color: white;
+    width: 90px;
+    border-radius: 5px;
+}
+#main-frame{
+    background-color: rgb(108, 190, 217);
+    width: 100%;
+}
+#banner{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(18, 63, 141);
+    border:3px solid rgb(18, 63, 141);
+    width: 85%;
+    border-radius: 12px;
+    position: relative;
+}
+#ban{
+    margin: 30px auto;
+    padding:15px 30px;
+    width: 50%;
+}
+#banner h1{
+    color: yellow;
+}
+#banner p{
+    color: aliceblue;
+}
+#banner button{
+    font-weight: bolder;
+    background-color: yellow;
+    border-radius: 15px;
+    height: 45px;
+}
+#banner img{
+    height: 350px;
+    width: 50%;
+}
