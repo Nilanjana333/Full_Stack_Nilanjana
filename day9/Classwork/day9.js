@@ -13,21 +13,22 @@ if(x===+y){
     console.log("x!=y")
  }
 
-function myFunction(x,y){
-    console.log(x+y)
-}
+//function myFunction(x,y){
+//    console.log(x+y)
+//}
 
 let a1=10, b=10
 
 const myFunction=(a1, b)=>{
     console.log(a1+b)
 }
-myFunction(a,b)
+myFunction(a1,b)
+
 console.log(name)
 var name
 console.log(A)
 let A =10
-console.log(a);
+console.log(A);
 
 let $name = 10;
 console.log($name);
@@ -39,8 +40,8 @@ function myName() {
   console.log(a);
 }
 
-let fname = "sudip";
-let lname = "pradhan";
+let fname = "Gold";
+let lname = "Silver";
 console.log(fname, lname);
 let B = 20,
   c = "30";
