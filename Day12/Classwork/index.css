@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://www.akamai.com/site/im-demo/perceptual-standard.jpg?imbypass=true");
+}
+
+
+#parent{
+    width: 25%;
+    height: 450px;
+    border:1px solid grey;
+    text-align: center;
+    margin: auto;
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input{
+    width: 85%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#parent button{
+    padding:10px;
+    width: 50%;
+    border: none;
+    background-color: hwb(84 31% 12%);
+    margin-bottom: 30px;
+}
+
+#parent>form>button:hover{
+    background-color: rgb(112, 245, 136);
+    color: rgb(168, 168, 163);
+    cursor: pointer;
+}
+input:focus{
+    background-color: aquamarine;
+}
+
+table{
+    color:rgb(0, 0, 0);
+    width: 50%;
+
+}
+table, td{
+    border:1px solid rgb(90, 113, 134);
+    border-collapse: collapse;
+    margin: auto;
+    margin-top:20px;
+}
