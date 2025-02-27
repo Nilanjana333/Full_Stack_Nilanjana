@@ -1,0 +1,74 @@
+
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2--Dv8RRGbjMr4C4vOzzyHMK9_bQHJKgSeg&s");
+    text-align: center;
+}
+
+h1{
+    color: rgb(109, 6, 80);
+    background-color: bisque;
+    width: 30%;
+    border-radius: 8px;
+    margin: auto;
+}
+div{
+    margin:auto;
+    margin-top: 30px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    width: 70%;
+}
+
+#movieform{
+	text-align:center;
+	margin:auto;
+    margin-top: 50px;
+	width:65%;
+}
+
+input,select,textarea{
+width:80%;
+padding:10px;
+margin-bottom:20px;
+color:rgb(34, 7, 122);
+border:2px solid brown;
+border-radius:15px;
+background-color:#dcc8f5;
+}
+
+button{
+background-color:#014B9F;
+width:30%;
+padding:10px;
+color:#E2E1DC;
+margin:20px;
+border:none;
+border-radius:10px;
+}
+button:hover{
+background: linear-gradient(90deg, rgba(35,25,217,1) 18%, rgba(1,23,78,1) 48%, rgba(26,129,149,1) 100%);
+
+color:white;
+border-radius:15px;
+}
+input,textarea,select:focus{
+color:black;
+}
+
+#movieinfo{
+	text-align:center;
+	margin:auto;
+	color:#E2E1DC;
+	width:40%;
+	 box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+table, td, th{
+    border:3px solid grey;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top:20px;
+}
+#del{
+width:80%;
+}
