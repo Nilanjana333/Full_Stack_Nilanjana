@@ -202,10 +202,7 @@ function addToCart(el) {
     getData()
 }
 
-//find application after inspect, there you will find local storage
-
 function getData(){
     let parsedData=JSON.parse(localStorage.getItem("cartData")); 
     console.log(parsedData);
 }
-//call the saved data and map that
